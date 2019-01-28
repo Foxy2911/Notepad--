@@ -1,0 +1,10 @@
+C:\Users\Anestis\source\repos\Notepad--\Notepad--\bin\Debug\Notepad--.exe.config
+C:\Users\Anestis\source\repos\Notepad--\Notepad--\bin\Debug\Notepad--.exe
+C:\Users\Anestis\source\repos\Notepad--\Notepad--\bin\Debug\Notepad--.pdb
+C:\Users\Anestis\source\repos\Notepad--\Notepad--\obj\Debug\Notepad--.csprojAssemblyReference.cache
+C:\Users\Anestis\source\repos\Notepad--\Notepad--\obj\Debug\Notepad__.Form1.resources
+C:\Users\Anestis\source\repos\Notepad--\Notepad--\obj\Debug\Notepad__.Properties.Resources.resources
+C:\Users\Anestis\source\repos\Notepad--\Notepad--\obj\Debug\Notepad--.csproj.GenerateResource.cache
+C:\Users\Anestis\source\repos\Notepad--\Notepad--\obj\Debug\Notepad--.csproj.CoreCompileInputs.cache
+C:\Users\Anestis\source\repos\Notepad--\Notepad--\obj\Debug\Notepad--.exe
+C:\Users\Anestis\source\repos\Notepad--\Notepad--\obj\Debug\Notepad--.pdb

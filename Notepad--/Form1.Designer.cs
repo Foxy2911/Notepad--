@@ -1,0 +1,171 @@
+﻿namespace Notepad__
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.newToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
+            this.exToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.txtNotepad = new System.Windows.Forms.TextBox();
+            this.layoutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fontToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.AutoSize = false;
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fileToolStripMenuItem,
+            this.aboutToolStripMenuItem,
+            this.layoutToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(0);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 25);
+            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // fileToolStripMenuItem
+            // 
+            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.newToolStripMenuItem,
+            this.openToolStripMenuItem,
+            this.saveToolStripMenuItem,
+            this.toolStripMenuItem1,
+            this.exToolStripMenuItem});
+            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 25);
+            this.fileToolStripMenuItem.Text = "File";
+            // 
+            // newToolStripMenuItem
+            // 
+            this.newToolStripMenuItem.Name = "newToolStripMenuItem";
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.newToolStripMenuItem.Text = "New";
+            this.newToolStripMenuItem.Click += new System.EventHandler(this.newToolStripMenuItem_Click);
+            // 
+            // openToolStripMenuItem
+            // 
+            this.openToolStripMenuItem.Name = "openToolStripMenuItem";
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.openToolStripMenuItem.Text = "Open";
+            this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
+            // 
+            // saveToolStripMenuItem
+            // 
+            this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.saveToolStripMenuItem.Text = "Save";
+            this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(177, 6);
+            // 
+            // exToolStripMenuItem
+            // 
+            this.exToolStripMenuItem.Name = "exToolStripMenuItem";
+            this.exToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exToolStripMenuItem.Text = "Exit";
+            this.exToolStripMenuItem.Click += new System.EventHandler(this.exToolStripMenuItem_Click);
+            // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(52, 25);
+            this.aboutToolStripMenuItem.Text = "About";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
+            // 
+            // txtNotepad
+            // 
+            this.txtNotepad.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtNotepad.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtNotepad.Location = new System.Drawing.Point(0, 25);
+            this.txtNotepad.Multiline = true;
+            this.txtNotepad.Name = "txtNotepad";
+            this.txtNotepad.Size = new System.Drawing.Size(800, 425);
+            this.txtNotepad.TabIndex = 1;
+            // 
+            // layoutToolStripMenuItem
+            // 
+            this.layoutToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fontToolStripMenuItem});
+            this.layoutToolStripMenuItem.Name = "layoutToolStripMenuItem";
+            this.layoutToolStripMenuItem.Size = new System.Drawing.Size(55, 25);
+            this.layoutToolStripMenuItem.Text = "Layout";
+            // 
+            // fontToolStripMenuItem
+            // 
+            this.fontToolStripMenuItem.Name = "fontToolStripMenuItem";
+            this.fontToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.fontToolStripMenuItem.Text = "Font";
+            this.fontToolStripMenuItem.Click += new System.EventHandler(this.fontToolStripMenuItem_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtNotepad);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem newToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem openToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
+        private System.Windows.Forms.TextBox txtNotepad;
+        private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem exToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem layoutToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem fontToolStripMenuItem;
+    }
+}
+
